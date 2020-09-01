@@ -1,0 +1,74 @@
+html {
+  font-size: 12px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav-container {
+  font-family: "Lexend Peta", sans-serif;
+  display: flex;
+  justify-content: center;
+  /* padding: 2rem; */
+}
+.global-nav {
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+  text-decoration: none;
+}
+.nav-item {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.brand {
+  padding-left: 2.5rem;
+  margin-right: auto;
+}
+.nav-item:nth-child(4) {
+  padding-right: 2.5rem;
+}
+.particles-container {
+  position: relative;
+
+  background: #000000e8;
+}
+#particles-js {
+  position: absolute;
+  background: #000000e8;
+  width: 100vw;
+  height: 100vh;
+}
+#particles-js canvas {
+  z-index: 10;
+}
+
+.title_conatainer {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  user-select: none;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+.description-container {
+  position: absolute;
+  top: 45vh;
+}
+.extra_description {
+  font-size: 1.5rem;
+}
