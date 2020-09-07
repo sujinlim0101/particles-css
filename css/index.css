@@ -9,6 +9,7 @@ html {
   font-family: "Lexend Peta", sans-serif;
   display: flex;
   justify-content: center;
+  user-select: none;
   /* padding: 2rem; */
 }
 .global-nav {
