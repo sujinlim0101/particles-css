@@ -1,7 +1,7 @@
 # particles-css
 
 <br>
-url: https://master.dv7kw3y7ob82i.amplifyapp.com/
+https://master.dv7kw3y7ob82i.amplifyapp.com/
 <br>
 ----------------------------------------------------------------------
 <br>
